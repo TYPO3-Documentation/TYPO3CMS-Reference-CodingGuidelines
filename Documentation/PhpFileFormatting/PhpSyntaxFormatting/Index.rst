@@ -337,6 +337,13 @@ integer values like :code:`0` or :code:`1`. Furthermore they should be
 written in uppercase, i.e. :code:`TRUE` and :code:`FALSE`.
 
 
+NULL
+""""
+
+Similarly this special value is written in uppercase, i.e.
+:code:`NULL`.
+
+
 Arrays
 """"""
 
@@ -365,13 +372,6 @@ very small and simple array declarations, e.g. ::
    $a = array(
        0 => 'b',
    );
-
-
-NULL
-""""
-
-Similarly this special value is written in uppercase, i.e.
-:code:`NULL`.
 
 
 PHP5 features
