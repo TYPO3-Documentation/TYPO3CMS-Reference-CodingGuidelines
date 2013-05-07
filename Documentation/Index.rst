@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _start:
+
 ==========================
 TYPO3 v4 Coding Guidelines
 ==========================
@@ -27,7 +29,7 @@ TYPO3 v4 Coding Guidelines
       forDevelopers, forIntermediates
 
 :Copyright:
-      2000-2011
+      2000-2013
 
 :Author:
       Documentation Team
