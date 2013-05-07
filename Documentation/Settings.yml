@@ -1,0 +1,8 @@
+# Settings.yml
+---
+conf.py:
+  project: TYPO3 CMS Coding Guidelines
+  copyright: 2000-2013
+  version: 4.6.0
+  release: 4.6.0
+...

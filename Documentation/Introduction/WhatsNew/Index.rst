@@ -18,11 +18,9 @@
 What's new
 ^^^^^^^^^^
 
-The latest version of the CGLs mostly contains more complete and
-precise information about already existing guidelines. It also
-reflects changes in the coding of TYPO3 4.5, like modified XCLASS
-declarations and the use of UTF-8 encoding in the source code. Also
-mentioned are more recent changes, like the switch to Git.
+This version of the CGLs mostly contains more complete and precise
+information about already existing guidelines. It is updated to TYPO3
+4.6.
 
 Furthermore the appendix which described how to properly set up
 various IDEs for working with the TYPO3 v4 Core has been move to the
