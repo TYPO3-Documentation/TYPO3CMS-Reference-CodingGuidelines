@@ -22,7 +22,7 @@ TYPO3 v4 Coding Guidelines
       doc_core_cgl
 
 :Version:
-      4.5.1
+      4.7.0
 
 :Language:
       en
