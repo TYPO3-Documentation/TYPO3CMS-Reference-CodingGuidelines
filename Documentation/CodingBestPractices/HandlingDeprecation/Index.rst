@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _deprecation:
+
 Handling deprecation
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -33,7 +35,7 @@ phpDoc :code:`@deprecated` parameter::
     */
 
 At the beginning of the deprecated function you should add a call to
-:code:`GeneralUtility::logDeprecatedFunction()` and provide a helpful
+:code:`t3lib_div::logDeprecatedFunction()` and provide a helpful
 deprecation message::
 
 
