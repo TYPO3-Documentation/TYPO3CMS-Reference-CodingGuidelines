@@ -6,8 +6,8 @@
 .. include:: ../../Includes.txt
 
 
-General requirements to PHP files
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+General requirements for PHP files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 PHP tags
@@ -71,8 +71,10 @@ Notes
   expressions, put the logical operator at the beginning of the next
   line, e.g.::
 
-   if ($GLOBALS['TYPO3_CONF_VARS']['SYS']['curlUse'] == '1'
-           && preg_match('/^(?:http|ftp)s?|s(?:ftp|cp):/', $url)) {
+   if (
+       $GLOBALS['TYPO3_CONF_VARS']['SYS']['curlUse'] == '1'
+       && preg_match('/^(?:http|ftp)s?|s(?:ftp|cp):/', $url)
+   ) {
 
 
 Whitespace and indentation
