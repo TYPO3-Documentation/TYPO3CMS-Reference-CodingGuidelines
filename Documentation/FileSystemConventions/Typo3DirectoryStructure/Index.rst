@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _typo3-directory-structure:
+
 TYPO3 directory structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -55,7 +57,7 @@ directories:
          TYPO3 Backend directory. This directory contains the Backend files.
 
          Additionally, it contains some extensions in the :code:`ext/` (not used by the
-         TYPO3 core) and :code:`sysext/` directories. For example, the ":code:`frontend`"
+         TYPO3 core) and :code:`sysext/` directories. For example, the ":code:`cms`"
          extension contains the code for generating the Frontend website.
 
 
