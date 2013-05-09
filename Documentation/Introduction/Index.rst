@@ -42,7 +42,8 @@ information about already existing guidelines. It is updated to TYPO3
 4.6. New is the information not to use a byte order mark in PHP files.
 Hungarian notation for variable names is not encouraged. Notes about
 function indeces in the TYPO3 Core have been removed just like these
-indeces themselves. Notes have been added that language labels should
+indeces themselves. Information on :code:`locallang\*.xlf` files have
+been amended and notes have been added that language labels should
 never contain configuration options.
 
 Furthermore the appendix which described how to properly set up
