@@ -44,7 +44,8 @@ Hungarian notation for variable names is not encouraged. Notes about
 function indeces in the TYPO3 Core have been removed just like these
 indeces themselves. Information on :code:`locallang\*.xlf` files have
 been amended and notes have been added that language labels should
-never contain configuration options.
+never contain configuration options. Notes on :code:`ext\_autoload.php`
+have been added to the chapter on extension directory structure.
 
 Furthermore the appendix which described how to properly set up
 various IDEs for working with the TYPO3 v4 Core has been moved to the
