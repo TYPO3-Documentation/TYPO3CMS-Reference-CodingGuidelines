@@ -28,7 +28,7 @@ An extension directory contains the following files and directories:
 .. container:: table-row
 
    Name
-         :code:`ext\_autoload.php`
+         :code:`ext_autoload.php`
 
    Description
          This file contains an array. This array maps class names to file
@@ -39,7 +39,7 @@ An extension directory contains the following files and directories:
 .. container:: table-row
 
    Name
-         :code:`ext\_emconf.php`
+         :code:`ext_emconf.php`
 
    Description
          This is the only mandatory file in the extension. It describes
@@ -49,7 +49,7 @@ An extension directory contains the following files and directories:
 .. container:: table-row
 
    Name
-         :code:`ext\_icon.gif`
+         :code:`ext_icon.gif`
 
    Description
          This is the icon of the extension. The name may not be changed.
@@ -58,7 +58,7 @@ An extension directory contains the following files and directories:
 .. container:: table-row
 
    Name
-         :code:`ext\_localconf.php`
+         :code:`ext_localconf.php`
 
    Description
          This file contains hook definitions and plugin configuration. The name
@@ -68,7 +68,7 @@ An extension directory contains the following files and directories:
 .. container:: table-row
 
    Name
-         :code:`ext\_tables.php`
+         :code:`ext_tables.php`
 
    Description
          This file contains table declarations. For more information about
@@ -79,7 +79,7 @@ An extension directory contains the following files and directories:
 .. container:: table-row
 
    Name
-         :code:`ext\_tables.sql`
+         :code:`ext_tables.sql`
 
    Description
          This files contains definitions for extension tables. The name may not
@@ -104,7 +104,7 @@ An extension directory contains the following files and directories:
          existing table fields though that is not recommended, because it may
          create problems with the TYPO3 core and/or other extensions.
 
-         TYPO3 parses :code:`ext\_tables.sql` files. TYPO3 expects that all
+         TYPO3 parses :code:`ext_tables.sql` files. TYPO3 expects that all
          table definitions in this file look like the ones produced by the
          :code:`mysqldump` utility. Incorrect definitions may not be recognized
          by the TYPO3 SQL parser or may lead to MySQL errors, when TYPO3 tries
@@ -123,7 +123,7 @@ An extension directory contains the following files and directories:
 .. container:: table-row
 
    Name
-         :code:`locallang\*.xlf`
+         :code:`locallang*.xlf`
 
    Description
          These files contain localizable labels in standard XLIFF format, one
@@ -133,13 +133,13 @@ An extension directory contains the following files and directories:
 .. container:: table-row
 
    Name
-         :code:`locallang\*.xml`
+         :code:`locallang*.xml`
 
    Description
          These files contain localizable labels in a custom XML based format,
          possibly multiple languages per file. They can also appear in
          subdirectories. Deprecated since TYPO3 4.6; use
-         :code:`locallang\*.xlf` files instead.
+         :code:`locallang*.xlf` files instead.
 
 
 .. container:: table-row
