@@ -112,8 +112,10 @@ Debug output
 
 During development it is allowed to use :code:`debug()` or
 :code:`t3lib_div::debug()` function calls to produce debug output.
-However all debug statements must be removed (not only commented!) before
-pushing the code to the Git repository.
+However all debug statements must be removed (not only commented!)
+before pushing the code to the Git repository. Only very exceptionally
+is it allowed to even *think* of leaving a debug statement, if it is
+definitely a major help when developing user code for the TYPO3 Core.
 
 
 Curly braces
