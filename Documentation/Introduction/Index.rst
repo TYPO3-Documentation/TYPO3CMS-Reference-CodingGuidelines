@@ -28,5 +28,6 @@ Introduction
    WhatsNew/Index
    Credits/Index
    Feedback/Index
+   TheCglAsAMeansOfQualityAssurance/Index
    ConventionsUsedInThisDocument/Index
 
