@@ -333,13 +333,18 @@ Incorrect::
    $content = "Hello $userName";
 
 Multiline string concatenations are allowed. The line concatenation
-operator must be at the end of the line. Lines starting from the
+operator must be at the begin of the line. Lines starting from the
 second must be indented relatively to the first line. It is recommended
 to indent lines one level from the start of the string on the first
-level::
+level. The old rule allowed the operator only at the end. Both are still
+valid. Please do no "mass-change" across the core. Use the new rule for
+future changes or patches currently under review but do **not** block reviews
+because of the legacy concatenation. If you change a line/method anyway,
+you can of course adapt CGL-changes as well (as long as it's no 
+"mass-change")::
 
-   $content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' .
-                   'Donec varius libero non nisi. Proin eros.';
+   $content = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+                  . 'Donec varius libero non nisi. Proin eros.';
 
 
 Booleans
