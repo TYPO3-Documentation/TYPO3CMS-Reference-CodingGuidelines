@@ -21,7 +21,7 @@ function, please mark it within the phpDoc param part::
 
    /**
     * ...
-    * @param string DEPRECATED since TYPO3 7.X - is not used anymore because...
+    * @param string DEPRECATED since TYPO3 CMS 7 - is not used anymore because...
     * ...
     */
 
@@ -32,7 +32,7 @@ phpDoc :code:`@deprecated` annotation::
    /**
     * ...
     * @return ...
-    * @deprecated since TYPO3 CMS 7.X, will be removed in TYPO3 CMS 8, use FUNCNAME instead
+    * @deprecated since TYPO3 CMS 7, will be removed in TYPO3 CMS 8, use FUNCNAME instead
     */
 
 
@@ -51,7 +51,7 @@ used inside the code itself::
 
 	if ($fooBar !== NULL) {
 		\TYPO3\CMS\Core\Utility\GeneralUtility::deprecationLog(
-			'Usage of foobar is deprecated since TYPO3 CMS 7.X, ' .
+			'Usage of foobar is deprecated since TYPO3 CMS 7, ' .
 			'will be removed in TYPO3 CMS 8, use FUNCNAME instead.'
 		);
 		$this->useFooBar = TRUE;
