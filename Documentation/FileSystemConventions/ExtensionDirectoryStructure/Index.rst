@@ -11,7 +11,9 @@
 Extension directory structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-An extension directory contains the following files and directories:
+An extension directory can contain the following files and directories, of which
+many are optional. Note that this list is incomplete. A full list is available in
+:ref:`t3api:extension-files-locations`.
 
 
 .. ### BEGIN~OF~TABLE ###
