@@ -26,8 +26,9 @@ tx\_
 """"
 
 Class names starting with :code:`tx_` are reserved for extensions.
-Extension PHP class files, which are based on the :code:`tslib_pibase`
-class, must start with :code:`class.tx_` prefix, followed by the
+Extension PHP class files, which are based on the
+:code:`\TYPO3\CMS\Frontend\Plugin\AbstractPlugin` class,
+must start with :code:`class.tx_` prefix, followed by the
 extension key without underscores, another underscore and the name of
 the class in lowercase. The file name ends with the extension
 :code:`php`. For example, if the extension key is :code:`test_ext`,
