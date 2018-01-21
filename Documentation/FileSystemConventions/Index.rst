@@ -12,6 +12,8 @@ follow other formal rules. They will be described separately. New core
 classes and extensions are required to follow the formal rules outlined
 below.
 
+.. _typo3-directory-structure:
+.. _typo3-user-files:
 .. _extension-directory-structure:
 
 
@@ -20,7 +22,5 @@ below.
    :titlesonly:
    :glob:
 
-   Typo3DirectoryStructure/Index
-   Typo3FilesAndUserFiles/Index
    FileNames/Index
 
