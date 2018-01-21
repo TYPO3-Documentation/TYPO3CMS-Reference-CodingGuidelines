@@ -1,82 +1,64 @@
 .. include:: Includes.txt
 
-
 .. _start:
+
+.. _Sitemap:
+
+.. _introduction:
+.. _about:
+.. _what-s-new:
+.. _credits:
+.. _feedback:
+.. _quality-assurance:
+.. _conventions-in-this-document:
+
+.. _file-system-conventions:
+.. _typo3-directory-structure:
+.. _typo3-user-files:
+.. _extension-directory-structure:
+.. _file-names:
+
+.. _php-file-formatting:
+.. _general-requirements-for-php-files:
+.. _file-structure:
+.. _php-syntax-formatting:
+.. _using-phpdoc:
+
+.. _php-architecture:
+.. _modeling-cross-cutting-concerns:
+.. _model-static-methods:
+.. _traits:
+.. _services:
+.. _working-with-exceptions:
+.. _general-links:
+
+.. _best-practices:
+.. _database-access:
+.. _singletons:
+.. _static-methods:
+.. _localization:
+.. _unit-tests:
+.. _deprecation:
+.. _namespaces-class-names:
+
+.. _index-labels-for-crossreferencing:
+.. _index-targets-for-crossreferencing:
+
 
 ===========================
 TYPO3 CMS Coding Guidelines
 ===========================
 
-:Previous Key:
-      doc_core_cgl
+.. attention::
 
-:Version:
-      |release|
+   This document has been merged into :ref:`TYPO3 Core API <t3coreapi:cgl>`
+   since core version 9.
 
-:Language:
-      en
+.. rst-class:: horizbuttons-tip-xxl
 
-:Description:
-      A description of the formal requirements or standards regarding
-      PHP coding that you should adhere to when you develop TYPO3
-      Extensions or Core parts.
+- :ref:`This manual has moved <t3coreapi:cgl>`
 
-:Keywords:
-      forDevelopers, forIntermediates
-
-:Copyright:
-      2000-2015
-
-:Author:
-      Documentation Team
-
-:Email:
-      documentation@typo3.org
-
-:License:
-      Open Publication License available from `www.opencontent.org/openpub/
-      <http://www.opencontent.org/openpub/>`_
-
-:Rendered:
-      |today|
-
-The content of this document is related to TYPO3,
-
-a GNU/GPL CMS/Framework available from `www.typo3.org
-<https://typo3.org/>`_
-
-
-**Official documentation**
-
-This document is included as part of the official TYPO3 documentation.
-It has been approved by the TYPO3 Documentation Team following a peer-
-review process. The reader should expect the information in this
-document to be accurate - please report discrepancies to the
-Documentation Team (documentation@typo3.org). Official documents are
-kept up-to-date to the best of the Documentation Team's abilities.
-
-
-**Core Manual**
-
-This document is a Core Manual. Core Manuals address the built in
-functionality of TYPO3 and are designed to provide the reader with in-
-depth information. Each Core Manual addresses a particular process or
-function and how it is implemented within the TYPO3 source code. These
-may include information on available APIs, specific configuration
-options, etc.
-
-Core Manuals are written as reference manuals. The reader should rely
-on the Table of Contents to identify what particular section will best
-address the task at hand.
-
-
-.. toctree::
-   :hidden:
-
-   Sitemap/Index
-   Introduction/Index
-   FileSystemConventions/Index
-   PhpFileFormatting/Index
-   PhpArchitecture/Index
-   CodingBestPractices/Index
-   Targets
+*Older versions*
+(`v8.7 </typo3cms/CodingGuidelinesReference/8.7/>`__,
+`v7.6 </typo3cms/CodingGuidelinesReference/7.6/>`__):
+Please refer to "Related Links" in the lower left corner of the page.
