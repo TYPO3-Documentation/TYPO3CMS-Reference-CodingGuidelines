@@ -12,13 +12,14 @@ follow other formal rules. They will be described separately. New core
 classes and extensions are required to follow the formal rules outlined
 below.
 
+.. _extension-directory-structure:
+
 
 .. toctree::
    :maxdepth: 5
    :titlesonly:
    :glob:
 
-   Typo3DirectoryStructure/Index
    Typo3FilesAndUserFiles/Index
    ExtensionDirectoryStructure/Index
    FileNames/Index
