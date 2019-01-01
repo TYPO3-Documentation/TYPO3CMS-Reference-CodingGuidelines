@@ -71,7 +71,7 @@ Typical cases for exceptions that should not be caught
   to an invalid configuration scenario.
 * Programming error/ wrong API usage: Code that can not do its job
   because a developer did not take care and used an API in a wrong way.
-  This is a common reason to throw an extension and can be found at lots
+  This is a common reason to throw an exception and can be found at lots
   of places in the core. A top-level exception like
   :code:`\RuntimeException` should be thrown.
 
