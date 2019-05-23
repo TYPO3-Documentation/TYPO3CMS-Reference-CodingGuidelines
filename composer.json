@@ -1,0 +1,9 @@
+{
+    "name": "typo3/reference-coding-guidelines",
+    "type": "typo3-cms-documentation",
+    "description": "A description of the formal requirements or standards regarding PHP coding that you should adhere to when you develop TYPO3 Extensions or Core parts.",
+    "license": "OPL-1.0",
+    "require": {
+      "typo3/cms-core": "^9.5"
+    }
+}
