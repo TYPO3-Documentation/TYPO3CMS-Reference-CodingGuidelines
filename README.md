@@ -1,1 +1,3 @@
-Abandoned: This document has been merged into https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-CoreApi
+Has been merged into "TYPO3 Explained" for version 9+. Older branches still online.
+
+https://docs.typo3.org/m/typo3/reference-coding-guidelines/master/en-us/
